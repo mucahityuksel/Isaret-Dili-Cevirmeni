@@ -1,46 +1,4 @@
-/*
-import 'package:flutter/material.dart';
 
-
-
-class Giris extends StatefulWidget {
-  @override
-  _GirisState createState() => _GirisState();
-}
-
-class _GirisState extends State<Giris> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        //crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Row(
-            //crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                child: MaterialButton(
-                  padding: EdgeInsets.all(15),
-                  elevation: 5.0,
-                  color: Colors.blueGrey,
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => AnaSayfa()));
-                  },
-                  child: Text("Ana Sayfaya Git"),
-                ),
-              )
-            ],
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-*/
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
