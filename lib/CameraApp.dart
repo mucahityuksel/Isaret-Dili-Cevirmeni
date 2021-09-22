@@ -148,24 +148,13 @@ class _CameraScreenState extends State<CameraScreen> {
     }
   }
 
-  /*
-  void yolla() async {
-    try {
-      Response response =
-          await Dio().post("http://10.0.2.2:5000/test", data: {"a": "b"});
-      print(response);
-    } catch (e) {
-      print(e);
-    }
-  }
-   */
   Future<void> _onStop() async {
     await _controller.stopVideoRecording();
     setState(() => _isRecording = false);
     debugPrint("dsagdasgdfgasdsagsdgsa" + _filePath);
   }
 
-  Future<void> dosya_yaz() async {}
+  
 
   Future<void> _onRecord() async {
     var directory = await getTemporaryDirectory();
