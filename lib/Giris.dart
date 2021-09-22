@@ -83,7 +83,7 @@ class _CamState extends State<Cam> {
   Future<void> _onStop() async {
     await _controller.stopVideoRecording();
     setState(() => _isRecording = false);
-    debugPrint("dsagdasgdfgasdsagsdgsa" + _filePath);
+    //debugPrint("dsagdasgdfgasdsagsdgsa" + _filePath);
   }
   Future<void> dosya_yaz() async {}
 
